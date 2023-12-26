@@ -27,7 +27,7 @@ const replacer = new XlsxReplacer()
 
 //then you can await the replace method with your option
 async function main(){
-  const opt = {
+  const options = {
     template 'path/to/your/template/xlsx',
     rMap:{}
   }
