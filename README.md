@@ -2,7 +2,7 @@
 
 ## Description
 
-> This is a project for making `.xlsx` file as a template. With a template xlsx file containing `${slot}` inside and this wonderful `xlsx-repacer` tool , You can get a target xlsx file !
+> This is a project for making `.xlsx` file as a template. With a template xlsx file containing `${slot}` inside and this wonderful `xlsx-replacer` tool , You can get a target xlsx file !
 
 ## Installation
 
@@ -53,7 +53,7 @@ export type ReplaceOptions = {
   // target xlsx output file path, not aviable when override is true,default path is same as template with ! in front
   target?: string;
 
-   // unpacked path, where to generate unpacked,default dir is same as target's 
+   // unpacked path, where to generate unpacked, default dir is same as target's 
   unpacked?: string
 
   // whether to keep unpacked files when replaced
